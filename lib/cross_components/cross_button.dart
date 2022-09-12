@@ -45,8 +45,8 @@ class CrossButton extends StatelessWidget {
           : ElevatedButton(
               onPressed: onPressed,
               style: ElevatedButton.styleFrom(
-                primary: backgroundColor,
-                onSurface: disabledColor,
+                backgroundColor: backgroundColor,
+                disabledBackgroundColor: disabledColor,
                 padding: padding,
                 shape: RoundedRectangleBorder(
                   borderRadius: borderRadius,
